@@ -273,10 +273,84 @@ Observation: The table shows the distribution of furnishing types across differe
 Observation: The table shows the average furnishing type counts for each property type (flat/house) across different categories (0, 1, 2). Houses generally have higher furnishing counts compared to flats in all categories, indicating more furnished features.
 
 
+![Screenshot 2025-04-11 061755](https://github.com/user-attachments/assets/f23e4fb0-e4fc-4e66-8756-ac70e7c33473)
+
+![Screenshot 2025-04-11 052936](https://github.com/user-attachments/assets/f9316c61-2dbe-40e2-ac7b-31d9e7992187)
+
+Observation: Flats have a significantly higher average luxury score (78.74) compared to houses (47.85). This suggests that flats may generally offer more luxurious features or amenities than houses.
 
 
+![Screenshot 2025-04-11 061755](https://github.com/user-attachments/assets/fd20c39e-f1db-4dac-aaba-401bcac4a744)
+
+Observation: This dataset shows the count of flat and house properties across different sectors, including both well-known areas (like Dwarka Expressway) and less common sectors. The data allows for the analysis of property distribution based on location and type, providing insights into regional property availability.
 
 
+![Screenshot 2025-04-11 061755](https://github.com/user-attachments/assets/ecca28bc-b6e0-4945-922d-9c201e2a2176)
+
+Observation: The data shows the average price for various sectors, with a wide range from lower-priced sectors (e.g., sohna road road at 0.57) to high-priced ones (e.g., sector 26 at 12.68). The variation suggests differing property values based on location and sector status, highlighting potential market trends across regions.
+
+
+![Screenshot 2025-04-11 061755](https://github.com/user-attachments/assets/2bb0c51f-e0ed-4291-b9d9-b86276b416f4)
+
+Observation: The dataset contains 115 entries showing sectors and their respective price per square foot.
+Price per square foot varies across sectors, with some areas like "sector 3 phase 3 extension" having higher prices.
+
+
+![Screenshot 2025-04-11 061755](https://github.com/user-attachments/assets/3129eb01-8315-42cb-b9b0-1706ede64eb1)
+
+Observation: The dataset presents luxury scores for various sectors, with each sector showing a different level of luxury. The scores are sorted by sector number, revealing disparities in luxury across locations like Dwarka Expressway and Sohna Road.
+
+
+![Screenshot 2025-04-11 061755](https://github.com/user-attachments/assets/f45a2623-af48-493c-b097-77395dc31855)
+
+Observation: The table shows the average area and price for different bedroom counts. Generally, larger properties (more bedrooms) have higher average prices, but there are some fluctuations in the trend.
+
+
+![Screenshot 2025-04-11 061755](https://github.com/user-attachments/assets/df476bfb-665b-4955-aabb-5542f3e0aa99)
+
+Observation: The statistics show that 'area' and 'price' have a positive correlation (0.67), while 'agePossession' is missing for most entries.
+The basic statistics reveal that the 'area' varies widely, while 'price' has a much narrower range with a few outliers.
+
+
+![Screenshot 2025-04-11 061755](https://github.com/user-attachments/assets/599e8684-3055-4dae-98cd-c4ffd58ab719)
+
+Observation: The correlation of 0.67 between area and price indicates a moderate positive relationship.
+Properties with furnishing type '2' tend to have the largest average area and price.
+
+
+![Screenshot 2025-04-11 061755](https://github.com/user-attachments/assets/4210f1d5-f6a4-4706-9007-cd275a3ece7a)
+
+Observation: The data shows how the price increases with the number of bedrooms, with a noticeable jump in price for 12 and 16 bedrooms. Larger homes (12+ bedrooms) have higher variability in price, indicating possible luxury or unique properties.
+
+
+![Screenshot 2025-04-11 061755](https://github.com/user-attachments/assets/03d4aaa4-c283-4ba5-babd-85ef9ac5c063)
+
+Observation: The median price for each agePossession category shows varying property values. "Moderately Old" properties have the highest median price, while "Undefined" properties have the lowest.
+
+
+![Screenshot 2025-04-11 061755](https://github.com/user-attachments/assets/581b14e8-a1c7-4ec4-b0e0-16a5eeea45f2)
+
+Observation: Moderately Old properties have the largest average area, while Undefined ones have the smallest. Newer properties generally have slightly smaller areas compared to older ones, suggesting older homes may be more spacious
+
+
+![Screenshot 2025-04-11 061755](https://github.com/user-attachments/assets/77d12e8e-4929-4e93-919d-57b5753e5ff3)
+
+Observation: The average property prices for each furnishing type are 1.31, 2.12, and 2.40 (in lakhs or respective unit). This shows that better or more furnished properties tend to have higher average prices.
+
+
+![Screenshot 2025-04-11 061755](https://github.com/user-attachments/assets/07f8996a-e99d-4e20-98ef-7296c2074d54)
+
+Observation: The luxury_score shows the distribution of properties based on their luxury level. Most properties have lower luxury scores, while very high luxury scores are rare.
+
+
+![image](https://github.com/user-attachments/assets/c6e0b299-540c-4551-8d2c-0d881c030fc7)
+
+Above diagram represents correlation between features. 
+
+
+![Screenshot 2025-04-11 061755](https://github.com/user-attachments/assets/8a00f45e-23d7-40a6-a4c4-f88c460aca0a)
+
+Above diagram represents Pairplot of our features
 
 
 
