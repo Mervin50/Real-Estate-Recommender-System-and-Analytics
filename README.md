@@ -2,7 +2,7 @@
 Our real estate website provides city-level analytics, including spatial analysis, price distribution, and feature word clouds. It features a price prediction module based on property attributes, a recommender system for similar apartments, and insightful visualizations, all websites made with help of streamlit are deployed on AWS using to help users make informed property decisions.
 
 <p align="center">
-  <img src="https://github.com/Mervin50/ML_Project2_LungCancer_Classification/assets/167336864/a5520829-27fb-4928-b7b0-941028233030" alt="test1">
+  ![Image](https://github.com/user-attachments/assets/4219a9fd-3b92-4ad3-b5b8-4ba4ce1f1abf)
 </p>
 
 
