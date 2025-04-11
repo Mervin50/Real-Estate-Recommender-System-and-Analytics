@@ -328,6 +328,7 @@ Observation: The table shows the average furnishing type counts for each propert
 
 
 
+
 ![test1](https://github.com/Mervin50/ML_Project2_LungCancer_Classification/assets/167336864/d5b38c22-cae2-4f8d-bc3c-689f69cd1e0e)
 
 Approximately 50% people who smoke are below age 40. This group smokes approximately 15 cigarettes and consumes 3 drinks a day.
