@@ -270,8 +270,11 @@ Observation: The table shows the distribution of furnishing types across differe
 
 ![Screenshot 2025-04-11 052936](https://github.com/user-attachments/assets/7f8ea1e2-2484-4d5a-a338-f37ec3559ed1)
 
-
 Observation: The table shows the average furnishing type counts for each property type (flat/house) across different categories (0, 1, 2). Houses generally have higher furnishing counts compared to flats in all categories, indicating more furnished features.
+
+
+
+
 
 
 
