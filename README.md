@@ -76,9 +76,11 @@ Popular societies like Tulip Violet and SS The Leaf have the highest number of l
 Observation: The majority of property listings are concentrated around Sohna Road, followed by sectors like 85, 102, and 92.
 This suggests these areas are the most active or in-demand real estate zones in the dataset.
 
+
 ![Image](https://github.com/user-attachments/assets/ea2e7315-0f1e-4ddc-a576-e10f82e7a0bd)
 
 Observation: Majority Prices of the real estate is between 0 to 5cr.
+
 
 ![Image](https://github.com/user-attachments/assets/db13c477-84c4-49ec-9f05-9efe23875106)
 
@@ -90,9 +92,8 @@ Median Price: The median (or 50th percentile) price is 1.52 crores.
 Standard Deviation: The prices have a standard deviation of 2.98, indicating variability in the prices.
 Range: Prices range from a minimum of 0.07 crores to a maximum of 31.5 crores.
 IQR: The interquartile range (difference between 75th and 25th percentile) is from 0.95 crores to 2.75 crores.
-Visualizations:
 
-Distribution: The histogram indicates that most properties are priced in the lower range (below 5 crores), with a few properties going beyond 10 crores.
+Visualizations: Distribution: The histogram indicates that most properties are priced in the lower range (below 5 crores), with a few properties going beyond 10 crores.
 Box Plot: The box plot showcases the spread of the data and potential outliers. Properties priced above approximately 10 crores might be considered outliers as they lie beyond the upper whisker of the box plot.
 
 
@@ -146,6 +147,7 @@ Observations: Most properties have a price_per_sqft ranging between approximatel
 ![Screenshot 2025-04-11 061755](https://github.com/user-attachments/assets/309b49b5-730c-416e-9225-f9effb041653)
 
 Observations: The box plot clearly shows several outliers, especially on the higher side. The interquartile range (IQR) is relatively compact, but there are many data points beyond the "whiskers" of the box plot, indicating potential outliers. It seems to be right skewed. 
+
 
 ![Image](https://github.com/user-attachments/assets/0031d522-19f5-4fa5-a30b-2606c2a07c7a)
 
