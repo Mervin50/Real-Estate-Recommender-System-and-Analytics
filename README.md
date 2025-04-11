@@ -207,6 +207,98 @@ Observation: The data shows the presence (orange color) or absence (blue color) 
 Observations: The luxury score distribution has multiple peaks, suggesting a multi-modal distribution. There's a significant number of properties with lower luxury scores (around 0-50), and another peak is observed around the 110-130 range. The box plot reveals that the majority of the properties have luxury scores between approximately 30 and 110. The interquartile range (IQR) lies between these values.
 
 
+#### 4.1 Overview of dataset using Multivariate Analysis:
+
+![Image](https://github.com/user-attachments/assets/25bd2e21-bd22-46da-952f-ce4d96580d10)
+
+Observation: The dataset shows the average price for different property types. Flats are priced at 1.38 crore, while houses are priced at 4.25 crore on average.
+
+
+![Image](https://github.com/user-attachments/assets/fd7ea086-0227-4318-9137-455002a6b55e)
+
+Observation: The mean price for flats is lower than houses, with flats averaging 1.71 and houses 5.28. Flats have less price variability (SD = 1.39) compared to houses (SD = 4.73), indicating more price stability.
+
+
+![Image](https://github.com/user-attachments/assets/6047055c-51f8-4d3c-8b8c-ebd530534464)
+
+Observation: The average built_up_area for a flat is 1626.5 square feet, while for a house it's 1800 square feet. This suggests that houses tend to have slightly larger built-up areas compared to flats.
+
+
+![Image](https://github.com/user-attachments/assets/b388b2c7-58bd-44c2-a845-f41754629b45)
+
+Observation: The average built_up_area for a flat is 1626.5 square feet, while for a house it's 1800 square feet. This suggests that houses tend to have slightly larger built-up areas compared to flats.
+
+
+![Image](https://github.com/user-attachments/assets/4bb41436-805e-45a1-859e-5d3c66b13ba1)
+
+![Image](https://github.com/user-attachments/assets/c7102986-3710-45b5-8014-2257ad617605)
+
+Observation: The median price per square foot for flats is significantly lower than houses, indicating a higher cost for house properties. This suggests that houses typically offer more space or are located in more expensive areas compared to flats.
+
+
+![Image](https://github.com/user-attachments/assets/ce908fd5-5d4e-4e82-b1a9-15fe64b13487)
+
+Observations: The table shows the distribution of properties by bedroom count across different property types (flat and house). Flats are more concentrated in lower bedroom counts, while houses have a wider spread, including higher bedroom counts.
+
+
+![Image](https://github.com/user-attachments/assets/8705eb34-632f-4cc8-be43-92ff1e90a11e)
+
+![Image](https://github.com/user-attachments/assets/ee7ecaaf-f9c5-4e97-8cfa-53de8f784335)
+
+Observations: We calculated the average floor number for each property type using the groupby method. The result shows that flats tend to have higher average floors than houses.
+
+
+![Image](https://github.com/user-attachments/assets/95c0c5bb-9d23-413f-b969-71e19a078bb6)
+
+Observation: The data shows the distribution of property ages across different property types. Flats are more likely to be new or moderately old, while houses have a higher percentage of older or undefined properties.
+
+
+![Image](https://github.com/user-attachments/assets/f4a59c01-e6dc-4236-a656-560af9ea6d0a)
+
+Observation: The table shows the average count of property types (flat vs house) for each age possession category. Houses generally have higher values across most categories, particularly for "Relatively New" and "Under Construction.
+
+
+![Image](https://github.com/user-attachments/assets/3807ace7-710b-4806-8348-ade79a51b6ca)
+
+Observation: The table shows the average number of bedrooms for different property types (flat vs house). It highlights the distribution of bedrooms across property types, with more variation for houses compared to flats.
+
+
+![image](https://github.com/user-attachments/assets/b3263dfe-3362-4a14-af29-8ebae883694f)
+
+Observation: The table shows the distribution of furnishing types across different property types (flat vs house). For flats, most have furnishing type 0, while houses show a more balanced spread across the types.
+
+
+![Screenshot 2025-04-11 052936](https://github.com/user-attachments/assets/7f8ea1e2-2484-4d5a-a338-f37ec3559ed1)
+
+
+Observation: The table shows the average furnishing type counts for each property type (flat/house) across different categories (0, 1, 2). Houses generally have higher furnishing counts compared to flats in all categories, indicating more furnished features.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -324,6 +416,7 @@ Our confusion matrix is working well
 ![test1](https://github.com/Mervin50/ML_Project2_LungCancer_Classification/assets/167336864/17bcb751-e8d8-4178-a098-0bf4fb54fc2d)
 
 ![test2](https://github.com/Mervin50/ML_Project2_LungCancer_Classification/assets/167336864/8286ab87-7994-4748-a256-631d6bf03da1)
+
 
 
 # 8. Conclusion : 
