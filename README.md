@@ -207,7 +207,7 @@ Observation: The data shows the presence (orange color) or absence (blue color) 
 Observations: The luxury score distribution has multiple peaks, suggesting a multi-modal distribution. There's a significant number of properties with lower luxury scores (around 0-50), and another peak is observed around the 110-130 range. The box plot reveals that the majority of the properties have luxury scores between approximately 30 and 110. The interquartile range (IQR) lies between these values.
 
 
-#### 4.1 Overview of dataset using Multivariate Analysis:
+#### 4.2 Overview of dataset using Multivariate Analysis:
 
 ![Image](https://github.com/user-attachments/assets/25bd2e21-bd22-46da-952f-ce4d96580d10)
 
@@ -352,6 +352,12 @@ Above diagram represents correlation between features.
 
 Above diagram represents Pairplot of our features
 
+
+#### 5. Outlier Detection and Removal
+
+![Screenshot 2025-04-11 061755](https://github.com/user-attachments/assets/8d9e703f-2f87-4b2e-b446-7e4799f36b54)
+
+Observation: We have plotted scatter plot to know if there is any linear relationship. 
 
 
 
