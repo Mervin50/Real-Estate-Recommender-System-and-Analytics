@@ -91,28 +91,22 @@ Figure 4 Observation: Skewness: The price distribution has a skewness of approxi
 Kurtosis: The kurtosis value is approximately 14.93. A kurtosis value greater than 3 indicates a distribution with heavier tails and more outliers compared to a normal distribution.
 
 
-![Image](https://github.com/user-attachments/assets/433da5a2-6687-4565-a7c6-f650b3b2eff3)             ![Image](https://github.com/user-attachments/assets/7d3baa2f-26a8-4b08-b58c-9d932617c209)
+![Image](https://github.com/user-attachments/assets/433da5a2-6687-4565-a7c6-f650b3b2eff3)             
 
-                               Figure 1                                                                                      Figure 2
-Figure 1 Observations: 
+Observations: 
 Quantile Analysis:
 1% Quantile: Only 1% of properties are priced below 0.25 crores.
 5% Quantile: 5% of properties are priced below 0.37 crores.
 95% Quantile: 95% of properties are priced below 8.5 crores.
 99% Quantile: 99% of properties are priced below 15.26 crores, indicating that very few properties are priced above this value.
 
-Figure 2 Observations: 
+![Image](https://github.com/user-attachments/assets/7d3baa2f-26a8-4b08-b58c-9d932617c209)
+
+Observations: 
 Outliers Analysis (using IQR method):
 Based on the IQR method, there are 425 properties considered as outliers.
 These outliers have an average price of approximately 9.24 crores.
 The range for these outliers is from 5.46 crores to 31.5 crores.
-
-
-![Image](https://github.com/user-attachments/assets/8303c169-e6d3-471a-bf95-675e12b373ec)
-
-Observation:
-1. The majority of properties are priced in the "1-2 crores" and "2-3 crores" ranges.
-2. There's a significant drop in the number of properties priced above "5 crores."
 
 
 ![Image](https://github.com/user-attachments/assets/b6458161-1911-4cbf-90a7-c80e231cb30d)
@@ -124,14 +118,15 @@ Observations:
 2. Using np.log1p helps in transforming the price column while ensuring that any value (including zero, if present) is handled appropriately. When we need to reverse the transformation, we can use np.expm1 which computes e^x-1
 
 
-![Image](https://github.com/user-attachments/assets/4a317c72-8c68-467e-a223-27a19805ee06)
+![Screenshot 2025-04-11 052936](https://github.com/user-attachments/assets/19b8495d-c3e2-4380-ac96-3d711b309d22)
 
-Observations: Most properties have a price_per_sqft ranging between approximately ₹0 and ₹40,000. There is a significant concentration in the lower range, with a few properties having exceptionally high price_per_sqft.
+Figure 1 Observation:
+1. The majority of properties are priced in the "1-2 crores" and "2-3 crores" ranges.
+2. There's a significant drop in the number of properties priced above "5 crores."
 
+Figure 2 Observations: Most properties have a price_per_sqft ranging between approximately ₹0 and ₹40,000. There is a significant concentration in the lower range, with a few properties having exceptionally high price_per_sqft.
 
-![Screenshot 2025-04-11 061755](https://github.com/user-attachments/assets/309b49b5-730c-416e-9225-f9effb041653)
-
-Observations: The box plot clearly shows several outliers, especially on the higher side. The interquartile range (IQR) is relatively compact, but there are many data points beyond the "whiskers" of the box plot, indicating potential outliers. It seems to be right skewed. 
+Figure 3 Observations: The box plot clearly shows several outliers, especially on the higher side. The interquartile range (IQR) is relatively compact, but there are many data points beyond the "whiskers" of the box plot, indicating potential outliers. It seems to be right skewed. 
 
 
 ![Image](https://github.com/user-attachments/assets/0031d522-19f5-4fa5-a30b-2606c2a07c7a)
