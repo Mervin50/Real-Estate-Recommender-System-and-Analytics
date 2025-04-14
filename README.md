@@ -355,7 +355,7 @@ Above diagram represents Pairplot of our features
 
 #### 5. Outlier Detection and Removal
 
-![Screenshot 2025-04-11 061755](https://github.com/user-attachments/assets/8d9e703f-2f87-4b2e-b446-7e4799f36b54)
+![Screenshot 2025-04-11 061755](https://github.com/user-attachments/assets/91c0ad38-6a42-4475-b1a4-33505e5156f1)
 
 Observation: We have plotted scatter plot to know if there is any linear relationship. 
 
