@@ -419,6 +419,7 @@ In our case,
 #### 12. Deploying application on AWS
 
 We have used following 7 steps to deploy our Real Estate recommender on AWS using streamlit: 
+
 Step 1. Setting Up an EC2 Instance
 
 Step 2. Connecting to the EC2 Instance
