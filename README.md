@@ -55,30 +55,26 @@ After that, we have used standard scaler on above furnishing column. ALso, we ha
 
 ![Screenshot 2025-04-11 061755](https://github.com/user-attachments/assets/ec5d4df7-eaaf-4d9b-af21-fdc368f71e88)
 
-Observation in Figure1 : The dataset is dominated by flats, making up the majority of listings.
+Figure1 Observation : The dataset is dominated by flats, making up the majority of listings.
 Houses have significantly fewer listings, indicating a flat-heavy market.
 
-Observation in Figure2: Most properties are listed as "independent," showing a high preference for standalone homes.
+Figure2 Observation: Most properties are listed as "independent," showing a high preference for standalone homes.
 Among societies, "Tulip Violet" and "SS The Leaf" are the most popular, indicating strong demand for premium housing communities.
 
-Observation in Figure3: The table shows the number of listings for each housing society.
+Figure3 Observation: The table shows the number of listings for each housing society.
 Popular societies like Tulip Violet and SS The Leaf have the highest number of listings, indicating high activity or demand.
 
 
-![Image](https://github.com/user-attachments/assets/4933812a-dc17-45ca-99cf-df63e452637f)
+![Screenshot 2025-04-11 052936](https://github.com/user-attachments/assets/3f35ab42-dd32-46dc-8a91-0d8d9456eb14)
 
-Observation: The majority of property listings are concentrated around Sohna Road, followed by sectors like 85, 102, and 92.
+![Screenshot 2025-04-11 061755](https://github.com/user-attachments/assets/28d1ce17-6410-4af7-9d2e-675b80625e1d)
+
+Figure1 Observation: The majority of property listings are concentrated around Sohna Road, followed by sectors like 85, 102, and 92.
 This suggests these areas are the most active or in-demand real estate zones in the dataset.
 
+Figure2 Observation: Majority Prices of the real estate is between 0 to 5cr.
 
-![Image](https://github.com/user-attachments/assets/ea2e7315-0f1e-4ddc-a576-e10f82e7a0bd)
-
-Observation: Majority Prices of the real estate is between 0 to 5cr.
-
-
-![Image](https://github.com/user-attachments/assets/db13c477-84c4-49ec-9f05-9efe23875106)
-
-Observations:
+Figure3 Observation Observations:
 Descriptive Statistics:
 Count: There are 3,660 non-missing price entries.
 Mean Price: The average price is approximately 2.53 crores.
@@ -90,10 +86,7 @@ IQR: The interquartile range (difference between 75th and 25th percentile) is fr
 Visualizations: Distribution: The histogram indicates that most properties are priced in the lower range (below 5 crores), with a few properties going beyond 10 crores.
 Box Plot: The box plot showcases the spread of the data and potential outliers. Properties priced above approximately 10 crores might be considered outliers as they lie beyond the upper whisker of the box plot.
 
-
-![Image](https://github.com/user-attachments/assets/384ac9c2-17df-4bf6-a7fc-eb560600f082)
-
-Observations: Skewness: The price distribution has a skewness of approximately 3.28, indicating a positive skew. This means that the distribution tail is skewed to the right, which aligns with our observation from the histogram where most properties have prices on the lower end with a few high-priced properties.
+Figure 4 Observation: Skewness: The price distribution has a skewness of approximately 3.28, indicating a positive skew. This means that the distribution tail is skewed to the right, which aligns with our observation from the histogram where most properties have prices on the lower end with a few high-priced properties.
 
 Kurtosis: The kurtosis value is approximately 14.93. A kurtosis value greater than 3 indicates a distribution with heavier tails and more outliers compared to a normal distribution.
 
