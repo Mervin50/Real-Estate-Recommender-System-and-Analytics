@@ -12,10 +12,10 @@ Our project is a real estate platform that leverages analytics, price prediction
 # 2 Webscrapping
 I have done webscrapping on 99acres.com to extract infomration about city named Gurgaon. I have uploaded the webscrapping code. We all extracted following datasets after webscrapping which includes : Independent house, Residential land, Flats and Real Estate data (data of societies)
 
-# 2. Description of the dataset:
+# 3. Description of the dataset:
 We have 5 datasets files.
 
-#### 2.1 Shape of our dataset:
+#### 3.1 Shape of our dataset:
 Our flat dataset has 3017 rows and 20 columns.
 
 ![Image](https://github.com/user-attachments/assets/9e5dad21-5c40-4071-bec8-8636215ee255)
@@ -28,7 +28,7 @@ We have cleaned both the above datasets and merged them into one named as Gurgao
 
 ![Image](https://github.com/user-attachments/assets/f096c7bf-989f-46b3-ba8d-fb03085fc2ac)
 
-# 3, Feature Engineering 
+# 4. Feature Engineering 
 
 We have extracted buildup area values and convert it into square meter.  
 
@@ -49,9 +49,9 @@ Then, for each furnishing, we created new columns showing how many of each item 
 
 After that, we have used standard scaler on above furnishing column. ALso, we have used elbow method to find optimum number clusters for k-means
 
-# 4. Exploratory Data Analysis
+# 5. Exploratory Data Analysis
 
-#### 4.1 Overview of dataset using Univariate Analysis:
+#### 5.1 Overview of dataset using Univariate Analysis:
 
 ![Screenshot 2025-04-11 061755](https://github.com/user-attachments/assets/ec5d4df7-eaaf-4d9b-af21-fdc368f71e88)
 
@@ -188,7 +188,7 @@ Observation: The data shows the presence (orange color) or absence (blue color) 
 Observations: The luxury score distribution has multiple peaks, suggesting a multi-modal distribution. There's a significant number of properties with lower luxury scores (around 0-50), and another peak is observed around the 110-130 range. The box plot reveals that the majority of the properties have luxury scores between approximately 30 and 110. The interquartile range (IQR) lies between these values.
 
 
-#### 4.2 Overview of dataset using Multivariate Analysis:
+#### 5.2 Overview of dataset using Multivariate Analysis:
 
 ![Image](https://github.com/user-attachments/assets/25bd2e21-bd22-46da-952f-ce4d96580d10)
 
@@ -333,18 +333,19 @@ Above diagram represents correlation between features.
 
 Above diagram represents Pairplot of our features
 
-#### 5. Outlier Treatment
+#### 6. Outlier Treatment
+
+We have frequently used fillna() in our code. In onw instances, we have dropped rows after attempting to handle missing values. However, some columns that were not properly defined are still being labeled as "undefined". To explore this further, you can review my code.
 
 
-
-#### 6. Missing Value Imputation
+#### 7. Missing Value Imputation
 
 ![Screenshot 2025-04-11 061755](https://github.com/user-attachments/assets/91c0ad38-6a42-4475-b1a4-33505e5156f1)
 
 Observation: We have plotted scatter plot to know if there is any linear relationship. Please go through my jupyter notebook to check how I have treated outliers. I have frequently used fillna() in my code. In one instances, I dropped rows after attempting to handle missing values. However, some columns that were not properly defined are still being labeled as "undefined". To explore this further, you can review my code
 
 
-#### 7. Feature Selection
+#### 8. Feature Selection
 
 ![Screenshot 2025-04-11 061755](https://github.com/user-attachments/assets/81b3198b-06b3-4f79-813e-ab3011b7f2cf)
 
@@ -382,13 +383,13 @@ Technique 8 for feature selection -> SHAP
 
 ![Screenshot 2025-04-09 113538](https://github.com/user-attachments/assets/cc3c6658-0a2e-45da-9cab-12180471b132)
 
-#### 8. Model Selection and Productization: 
+#### 9. Model Selection and Productization: 
 We built a machine learning pipeline that applies preprocessing (scaling numerical features and ordinal encoding categorical ones) and fits a linear regression, SVR, Ridge, LASSO, decision tree, random forest, extra trees, gradient boosting, adaboost, MLP and xgboost. We evaluated its performance using 10-fold cross-validation and then trained it on a train-test split of the data for final predictions.
 
 ![Screenshot 2025-04-09 113538](https://github.com/user-attachments/assets/4deceb53-6d26-4aa9-84a2-fbf14d08cfb6)
 
 
-#### 9. Building Analytics model to deploy on AWS website [Link](http://localhost:8501/Analysis_App)
+#### 10. Building Analytics model to deploy on AWS website [Link](http://localhost:8501/Analysis_App)
 
 Our Real Estate Recommender comprises of 4 pages[Lin:
 1. Home
@@ -404,7 +405,7 @@ In our analytics Module, we have shown following things:
 5. Side by side bedroom price
 6. Displot of price of flat and house
 
-#### 10.  Recommender System
+#### 11. Recommender System
 
 Recommender systems are a subclass of information filtering systems that aim to predict the "rating" or "preference" a user would give to an item. 
 
@@ -415,13 +416,22 @@ In our case,
 2. Upon selecting an apartment, the system recommends similar apartments based on the highest similarity scores.
 
 
+#### 12. Deploying application on AWS
 
+We have used following 7 steps to deploy our Real Estate recommender on AWS using streamlit: 
+Step 1. Setting Up an EC2 Instance
 
+Step 2. Connecting to the EC2 Instance
 
+Step 3. Preparing the Instance
 
+Step 4. Transferring Files to the EC2 Instance
 
+Step 5. Installing Dependencies
 
+Step 6. Running the Streamlit App
 
+Step 7. Running the App in the Background
 
 
 
@@ -456,82 +466,6 @@ In our case,
 
 
 
-
-
-
-
-
-
-
-
-
-# 5. Polishing our data for model training
-
-#### 5.1 Outlier detection and treating using Z-score
-
-Shape of our original dataset :
-
-![test1](https://github.com/Mervin50/ML_Project2_LungCancer_Classification/assets/167336864/4b8baa6b-60e4-450a-920e-58fdb2c0ac41)
-
-Shape after treating outliers :
-
-![test1](https://github.com/Mervin50/ML_Project2_LungCancer_Classification/assets/167336864/4b8baa6b-60e4-450a-920e-58fdb2c0ac41)
-
-No outliers were detected.
-
-#### 5.2 One-Hot Encoding :
-
-We are doing One-Hot Encoding to convert categorical variables are converted into binary vectors.
-
-![test1](https://github.com/Mervin50/ML_Project2_LungCancer_Classification/assets/167336864/a50eb7dc-4034-45dc-8983-5174475de613)
-
-#### 5.3 Standarization
-
-We need to bring all the values of each column onto a common scale which will help us to train our model effiency.
-
-Our x_train after standarization :
-
-![test1](https://github.com/Mervin50/ML_Project2_LungCancer_Classification/assets/167336864/32f9a6dc-f184-416f-b549-c5d932e08c8b)
-
-Our x_test after standarization :
-
-![test1](https://github.com/Mervin50/ML_Project2_LungCancer_Classification/assets/167336864/211856bb-5483-44fc-89f3-3e73e115cb6c)
-
-# 6. Model Building and Model Evaluation
-
-#### 6.1 Calculating accuracy of our models
-
-We used Logisitc Regression, Decision Tree, Random Forest and Support Vector Machine to train our model.
-
-![test1](https://github.com/Mervin50/ML_Project2_LungCancer_Classification/assets/167336864/f34ccbe2-42eb-4649-b02c-f0fd63d79669)
-
-We are getting high accuracy for all four of our machine learning models.
-
-#### 6.2 Calculating Precision, R2 score and F1 score
-
-![test1](https://github.com/Mervin50/ML_Project2_LungCancer_Classification/assets/167336864/0334b109-77ea-4066-b53b-1d762ae4d107)
-
-Precision, Recall and F1-score of all our four models is excellent
-
-#### 6.3 Calculating confusion Matrix
-
-![test1](https://github.com/Mervin50/ML_Project2_LungCancer_Classification/assets/167336864/0f901358-70a9-4269-b579-cdf7b34dcf48)
-
-Our confusion matrix is working well
-
-
-# 7. Actual vs. Predicted Values:
-
-![test1](https://github.com/Mervin50/ML_Project2_LungCancer_Classification/assets/167336864/17bcb751-e8d8-4178-a098-0bf4fb54fc2d)
-
-![test2](https://github.com/Mervin50/ML_Project2_LungCancer_Classification/assets/167336864/8286ab87-7994-4748-a256-631d6bf03da1)
-
-
-
-# 8. Conclusion : 
-
-1. Lung cancer is caused among people who are above approximately 39 years old.
-2. All the 4 models : Logisitc Regression, Decision Tree, Random Forest and Support Vector Machine used provided high accuracy.
 
 
 
