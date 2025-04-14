@@ -91,19 +91,17 @@ Figure 4 Observation: Skewness: The price distribution has a skewness of approxi
 Kurtosis: The kurtosis value is approximately 14.93. A kurtosis value greater than 3 indicates a distribution with heavier tails and more outliers compared to a normal distribution.
 
 
-![Image](https://github.com/user-attachments/assets/433da5a2-6687-4565-a7c6-f650b3b2eff3)
+![Image](https://github.com/user-attachments/assets/433da5a2-6687-4565-a7c6-f650b3b2eff3)             ![Image](https://github.com/user-attachments/assets/7d3baa2f-26a8-4b08-b58c-9d932617c209)
 
-Observation: 
+                               Figure 1                                                                                      Figure 2
+Figure 1 Observations: 
 Quantile Analysis:
 1% Quantile: Only 1% of properties are priced below 0.25 crores.
 5% Quantile: 5% of properties are priced below 0.37 crores.
 95% Quantile: 95% of properties are priced below 8.5 crores.
 99% Quantile: 99% of properties are priced below 15.26 crores, indicating that very few properties are priced above this value.
 
-
-![Image](https://github.com/user-attachments/assets/7d3baa2f-26a8-4b08-b58c-9d932617c209)
-
-Observations: 
+Figure 2 Observations: 
 Outliers Analysis (using IQR method):
 Based on the IQR method, there are 425 properties considered as outliers.
 These outliers have an average price of approximately 9.24 crores.
