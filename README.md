@@ -53,21 +53,15 @@ After that, we have used standard scaler on above furnishing column. ALso, we ha
 
 #### 4.1 Overview of dataset using Univariate Analysis:
 
-![Image](https://github.com/user-attachments/assets/eb32559a-36dc-407c-8353-9c25c218c311)
+![Screenshot 2025-04-11 061755](https://github.com/user-attachments/assets/ec5d4df7-eaaf-4d9b-af21-fdc368f71e88)
 
-Observation: The dataset is dominated by flats, making up the majority of listings.
+Observation in Figure1 : The dataset is dominated by flats, making up the majority of listings.
 Houses have significantly fewer listings, indicating a flat-heavy market.
 
-
-![Image](https://github.com/user-attachments/assets/9ef240b4-c239-4346-be0b-db722378941a)
-
-Observation: Most properties are listed as "independent," showing a high preference for standalone homes.
+Observation in Figure2: Most properties are listed as "independent," showing a high preference for standalone homes.
 Among societies, "Tulip Violet" and "SS The Leaf" are the most popular, indicating strong demand for premium housing communities.
 
-
-![Image](https://github.com/user-attachments/assets/6f89344c-add3-45f6-bc66-7e79052194f2)
-
-Observation: The table shows the number of listings for each housing society.
+Observation in Figure3: The table shows the number of listings for each housing society.
 Popular societies like Tulip Violet and SS The Leaf have the highest number of listings, indicating high activity or demand.
 
 
