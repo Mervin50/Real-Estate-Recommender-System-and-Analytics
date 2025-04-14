@@ -131,18 +131,17 @@ Figure 2 Observations:
 Figure 3 Observations: Prices are highly concentrated between 0 to 3 crores.
 
 
-![Image](https://github.com/user-attachments/assets/0031d522-19f5-4fa5-a30b-2606c2a07c7a)
+![image](https://github.com/user-attachments/assets/dc04688b-ee04-4f6c-b2af-92d1f048b3c0)
 
-![Image](https://github.com/user-attachments/assets/d2a338e7-1f1c-474c-b4ad-a96911e05d75)
+![Screenshot 2025-04-11 052936](https://github.com/user-attachments/assets/ff5f42bc-66be-44ad-9f70-b40082c26f8e)
 
-Observation: The dataset shows the distribution of properties based on the number of bedrooms. The most common property has 3 bedrooms, followed by 2 bedrooms, while properties with 5 bedrooms are least frequent.
+Figure 1 & 2 Observation: 
+1. The dataset shows the distribution of properties based on the number of bedrooms.
+2. The most common property has 3 bedrooms, followed by 2 bedrooms, while properties with 5 bedrooms are least frequent.
 
-
-![Image](https://github.com/user-attachments/assets/71a0db62-0857-4d21-b92e-87cbf62f9a89)
-
-![Image](https://github.com/user-attachments/assets/113dc65b-d324-4eb3-a648-4e761a0f7902)
-
-Observation: The data shows the distribution of properties by the number of bathrooms, with the majority having between 2 and 5 bathrooms. Properties with more than 10 bathrooms are rare, indicating they are outliers or luxury properties.
+Figure 3 & 4 Observation: 
+1. The data shows the distribution of properties by the number of bathrooms, with the majority having between 2 and 5 bathrooms.
+2. Properties with more than 10 bathrooms are rare, indicating they are outliers or luxury properties.
 
 
 ![Image](https://github.com/user-attachments/assets/955f15f9-3cc1-4a20-bd16-5d848a18188b)
@@ -340,6 +339,7 @@ Above diagram represents Pairplot of our features
 ![Screenshot 2025-04-11 061755](https://github.com/user-attachments/assets/91c0ad38-6a42-4475-b1a4-33505e5156f1)
 
 Observation: We have plotted scatter plot to know if there is any linear relationship. 
+
 
 
 
