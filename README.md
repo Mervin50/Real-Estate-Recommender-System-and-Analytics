@@ -65,9 +65,9 @@ Figure3 Observation: The table shows the number of listings for each housing soc
 Popular societies like Tulip Violet and SS The Leaf have the highest number of listings, indicating high activity or demand.
 
 
-![Screenshot 2025-04-11 052936](https://github.com/user-attachments/assets/3f35ab42-dd32-46dc-8a91-0d8d9456eb14)
-
 ![Screenshot 2025-04-11 061755](https://github.com/user-attachments/assets/28d1ce17-6410-4af7-9d2e-675b80625e1d)
+
+![Screenshot 2025-04-11 052936](https://github.com/user-attachments/assets/3f35ab42-dd32-46dc-8a91-0d8d9456eb14)
 
 Figure1 Observation: The majority of property listings are concentrated around Sohna Road, followed by sectors like 85, 102, and 92.
 This suggests these areas are the most active or in-demand real estate zones in the dataset.
