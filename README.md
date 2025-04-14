@@ -124,9 +124,11 @@ Figure 1 Observation:
 1. The majority of properties are priced in the "1-2 crores" and "2-3 crores" ranges.
 2. There's a significant drop in the number of properties priced above "5 crores."
 
-Figure 2 Observations: Most properties have a price_per_sqft ranging between approximately ₹0 and ₹40,000. There is a significant concentration in the lower range, with a few properties having exceptionally high price_per_sqft.
+Figure 2 Observations: 
+1. Most properties have a price_per_sqft ranging between approximately ₹0 and ₹40,000.
+2. There is a significant concentration in the lower range, with a few properties having exceptionally high price_per_sqft.
 
-Figure 3 Observations: The box plot clearly shows several outliers, especially on the higher side. The interquartile range (IQR) is relatively compact, but there are many data points beyond the "whiskers" of the box plot, indicating potential outliers. It seems to be right skewed. 
+Figure 3 Observations: Prices are highly concentrated between 0 to 3 crores.
 
 
 ![Image](https://github.com/user-attachments/assets/0031d522-19f5-4fa5-a30b-2606c2a07c7a)
