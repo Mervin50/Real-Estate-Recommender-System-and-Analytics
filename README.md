@@ -7,7 +7,7 @@ Our real estate website provides city-level analytics, including spatial analysi
 
 
 # 1. Introduction:
-Our project is a real estate platform that leverages analytics, price prediction, and recommendation systems to help users make informed property decisions through visual insights and data-driven predictions. Real Estate Recommender [website](http://localhost:8501/) deployed on AWS.
+Our project is a real estate platform that leverages analytics, price prediction, and recommendation systems to help users make informed property decisions through visual insights and data-driven predictions. Real Estate Recommender [website](http://51.20.103.30:8501) deployed on AWS.
 
 # 2 Webscrapping
 I have done webscrapping on 99acres.com to extract infomration about city named Gurgaon. I have uploaded the webscrapping code. We all extracted following datasets after webscrapping which includes : Independent house, Residential land, Flats and Real Estate data (data of societies)
