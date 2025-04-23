@@ -1,4 +1,4 @@
-# Real-Estate-Recommender-System-and-Analytics [Link](http://localhost:8501/)
+# Real-Estate-Recommender-System-and-Analytics [Link](http://51.20.103.30:8501)
 Our real estate website provides city-level analytics, including spatial analysis, price distribution, and feature word clouds. It features a price prediction module based on property attributes, a recommender system for similar apartments, and insightful visualizations, all websites made with help of streamlit are deployed on AWS using to help users make informed property decisions.
 
 <p align="center">
