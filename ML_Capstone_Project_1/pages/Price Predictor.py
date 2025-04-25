@@ -3,6 +3,7 @@ import pickle
 import pandas as pd
 import numpy as np
 import os
+import rarfile
 
 st.set_page_config(page_title="Viz Demo")
 
@@ -12,22 +13,34 @@ repo_root = os.path.abspath(os.path.join(file_dir, '..'))  # One level up from /
 
 # Build the path for the pickle files, relative to the repo root
 df_path = os.path.join(repo_root, 'datasets', 'df.pkl')
-pipeline_path = os.path.join(repo_root, 'datasets', 'pipeline.pkl')
+pipeline_rar_path = os.path.join(repo_root, 'datasets', 'pipeline.rar')
+extracted_pipeline_path = os.path.join(repo_root, 'datasets', 'pipeline.pkl')
 
 # Check if the files exist at the paths, if not, raise an error
 if not os.path.exists(df_path):
     st.error(f"Error: 'df.pkl' not found at {df_path}")
     st.stop()
 
-if not os.path.exists(pipeline_path):
-    st.error(f"Error: 'pipeline.pkl' not found at {pipeline_path}")
-    st.stop()
+# Extract the pipeline.rar if the pipeline.pkl doesn't exist
+if not os.path.exists(extracted_pipeline_path):
+    if os.path.exists(pipeline_rar_path):
+        try:
+            # Extract the pipeline.rar file
+            with rarfile.RarFile(pipeline_rar_path) as rar:
+                rar.extractall(os.path.join(repo_root, 'datasets'))
+            st.success("Pipeline extracted successfully.")
+        except Exception as e:
+            st.error(f"Error extracting the pipeline.rar: {e}")
+            st.stop()
+    else:
+        st.error(f"Error: 'pipeline.rar' not found at {pipeline_rar_path}")
+        st.stop()
 
 # Load the data and pipeline
 with open(df_path, 'rb') as file:
     df = pickle.load(file)
 
-with open(pipeline_path, 'rb') as file:
+with open(extracted_pipeline_path, 'rb') as file:
     pipeline = pickle.load(file)
 
 st.header('🏡 Enter Your Inputs')
