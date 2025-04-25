@@ -2,16 +2,18 @@ import streamlit as st
 import pickle
 import pandas as pd
 import numpy as np
+import os
 
 st.set_page_config(page_title="Viz Demo")
 
-
-
-with open('df.pkl','rb') as file:
+df_path = os.path.join(os.path.dirname(__file__), '..', 'datasets', 'df.pkl')
+with open(df_path, 'rb') as file:
     df = pickle.load(file)
 
-with open('pipeline.pkl','rb') as file:
+pipeline_path = os.path.join(os.path.dirname(__file__), '..', 'datasets', 'pipeline.pkl')
+with open(pipeline_path, 'rb') as file:
     pipeline = pickle.load(file)
+
 
 
 st.header('🏡 Enter Your Inputs')
