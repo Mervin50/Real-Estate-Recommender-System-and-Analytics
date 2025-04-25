@@ -6,11 +6,17 @@ import os
 
 st.set_page_config(page_title="Viz Demo")
 
-df_path = os.path.join(os.path.dirname(__file__), '..', 'datasets', 'df.pkl')
+# Always build paths from the root of the repo
+file_dir = os.path.dirname(os.path.abspath(__file__))
+repo_root = os.path.abspath(os.path.join(file_dir, '..'))  # One level up from /pages
+
+df_path = os.path.join(repo_root, 'datasets', 'df.pkl')
+pipeline_path = os.path.join(repo_root, 'datasets', 'pipeline.pkl')
+
+# Load files
 with open(df_path, 'rb') as file:
     df = pickle.load(file)
 
-pipeline_path = os.path.join(os.path.dirname(__file__), '..', 'datasets', 'pipeline.pkl')
 with open(pipeline_path, 'rb') as file:
     pipeline = pickle.load(file)
 
