@@ -14,7 +14,11 @@ st.title('Analytics')
 # Load data
 file_path = os.path.join(os.path.dirname(__file__), '..', 'datasets', 'data_viz1.csv')
 new_df = pd.read_csv(file_path)
-feature_text = pickle.load(open('datasets/feature_text.pkl', 'rb'))
+
+feature_text_path = os.path.join(os.path.dirname(__file__), '..', 'datasets', 'feature_text.pkl')
+with open(feature_text_path, 'rb') as f:
+    feature_text = pickle.load(f)
+
 
 # Optional: Convert price from lakhs to crores if needed
 new_df['price'] = new_df['price'] / 100
