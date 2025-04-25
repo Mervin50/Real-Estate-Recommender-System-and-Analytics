@@ -11,7 +11,8 @@ st.set_page_config(page_title="Plotting Demo")
 st.title('Analytics')
 
 # Load data
-new_df = pd.read_csv('datasets/data_viz1.csv')
+file_path = os.path.join(os.path.dirname(__file__), '..', 'datasets', 'data_viz1.csv')
+new_df = pd.read_csv(file_path)
 feature_text = pickle.load(open('datasets/feature_text.pkl', 'rb'))
 
 # Optional: Convert price from lakhs to crores if needed
